@@ -1,0 +1,113 @@
+.search {
+  padding-top: 24px;
+  padding-bottom: 120px;
+}
+
+.search__header {
+  margin-bottom: 24px;
+}
+
+.search__header .btn--secondary {
+  max-width: 180px;
+  padding: 11px 24px;
+}
+
+.catalog-product__main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  margin-bottom: 80px;
+}
+
+.catalog-product__main .product-card .product-card__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.search .catalog-product__main {
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.search__title-notfound {
+  margin-bottom: 18px;
+}
+
+.search__subtitle {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 115%;
+  color: var(--black-color);
+  margin-bottom: 24px;
+}
+
+@media (min-width: 480px) {
+  .catalog-product__main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 16px;
+  }
+
+  .search .catalog-product__main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .search {
+    padding-top: 32px;
+    padding-bottom: 160px;
+  }
+
+  .search__header {
+    margin-bottom: 56px;
+  }
+
+  .catalog-product__main {
+    grid-column-gap: 22px;
+    grid-row-gap: 20px;
+  }
+
+  .search .catalog-product__main {
+    grid-column-gap: 22px;
+    grid-row-gap: 20px;
+  }
+
+  .search__title-notfound {
+    margin-bottom: 14px;
+  }
+
+  .search__subtitle {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .catalog-product__main {
+    grid-column-gap: 24px;
+    grid-row-gap: 40px;
+  }
+
+  .catalog-product__main .product-card {
+    padding: 16px 12px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .search .catalog-product__main {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+}
