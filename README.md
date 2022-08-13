@@ -27,7 +27,7 @@
 21.<a traget="_blank" href="https://r4skolov.github.io/dentlman/registration.html">Регистрация</a><br>
 22.<a traget="_blank" href="https://r4skolov.github.io/dentlman/restore-password.html">Сбросл пароля</a><br>
 23.<a traget="_blank" href="https://r4skolov.github.io/dentlman/restore-success.html">Сбросл успех</a><br>
-24.<a traget="_blank" href="https://r4skolov.github.io/rustruck/404.html">404</a><br>
+24.<a traget="_blank" href="https://r4skolov.github.io/dentlman/404.html">404</a><br>
 
 ## Технологии
 <ul> 
